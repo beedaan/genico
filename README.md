@@ -8,16 +8,9 @@ Generate icons automatically, so you don't have to.
 The inspiration for this project comes from [audreyr](https://github.com/audreyr)/[favicon-cheat-sheet](https://github.com/audreyr/favicon-cheat-sheet).  The process of properly creating favicons for a website used to painfully time consuming.  Now there is genico.
 
 
-## Setup
+## Run
 
-Genico runs on Ruby and requires ImageMagick.
-
-1. Install the ImageMagick native libraries
-```sh
-sudo apt-get install libmagickwand-dev
+Genico takes two arguments; your image and the output directory.  Run it like this
 ```
-
-2. Install RMagick, the binding from Ruby to ImageMagick
-```sh
-gem install rmagick 
+ruby genico.rb favicon.png output/
 ```
