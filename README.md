@@ -9,9 +9,9 @@ The inspiration for this project comes from [audreyr](https://github.com/audreyr
 
 ## Setup
 
-Genico depends on [Imagemagick](http://www.imagemagick.org/)
+Genico depends on [Imagemagick](http://www.imagemagick.org/) and [OptiPNG](http://optipng.sourceforge.net/)
 ```bash
-$ sudo apt-get install imagemagick
+$ sudo apt-get install imagemagick optipng
 ```
 
 
